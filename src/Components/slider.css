@@ -1,0 +1,21 @@
+.item {
+    text-decoration: underline;
+    color: red;
+    text-transform: uppercase;
+}
+.item:hover{
+    background-color: lightcoral;
+    color: blue;
+    width: 100px;
+    height: 50px;
+}
+.btn {
+    border: none;
+    border-radius:5px;
+    height:50px;
+    width:100px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
