@@ -2,6 +2,7 @@ import { useState
  } from 'react'
 import './slider.css'
 import {names} from './Data'
+import Home from './Home'
 const Slider = () => {
     const[state,setState]=useState({s:0,e:5})
    const arr=names.slice(state.s,state.e)
@@ -32,6 +33,7 @@ const Slider = () => {
         <button className='btn' onClick={handleDecerease}>prev name</button>
 
         </div>
+        <Home/>
     </div>
   )
 }

@@ -1,4 +1,3 @@
-;
 
 import Slider from "./Components/Slider";
 
